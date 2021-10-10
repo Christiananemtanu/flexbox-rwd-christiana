@@ -20,45 +20,46 @@
 }
 
 .header {
-  background: #255f85;
+    text-align: left;
+    background: #255f85;
 }
 
 .nav {
-  text-align: left;
-  background: #ffc857;
+    text-align: left;
+    background: #ffc857;
 }
 
 .aside-1 {
-  background: #e9724c;
+    text-align: left;
+    background: #e9724c;
 }
 
 .aside-2 {
-  background: #c5283d;
+    text-align: left;
+    background: #c5283d;
 }
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 0 0; }
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   .nav    { flex: 3 0px; }
   .aside-1 { order: 1; } 
   .nav    { order: 2; }
   .aside-2 { order: 3; }
 }
 
-body {
-  padding: 2em; 
-}
 </style>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">Header</header>
         <article class="nav">
+            <p>nav</p>
         </article>
-        <aside class="aside aside-1">Aside 1</aside>
-        <aside class="aside aside-2">Aside 2</aside>
+        <aside class="aside aside-1">Main</aside>
+        <aside class="aside aside-2">Aside</aside>
       </div>
     
 </body>
